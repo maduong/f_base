@@ -1,0 +1,28 @@
+{
+    "name": "edutalk/f_base",
+    "description": "Edutalk core production",
+    "license": "MIT",
+    "homepage": "http://edutalk.vn",
+    "authors": [
+        {
+            "name": "Vuong Pham",
+            "email": "kingdom102@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/maduong/f_base/issues",
+        "source": "https://github.com/maduong/f_base"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edutalk\\Base\\": "src/"
+        },
+        "files": [
+
+        ]
+    }
+}
